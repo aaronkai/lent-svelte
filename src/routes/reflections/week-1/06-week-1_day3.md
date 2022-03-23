@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Tuesday After First Sunday of Lent
 subtitle: Christ underwent every kind of suffering
 day: 6

@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Monday after the Second Sunday of Lent
 scripture: They shall deliver Him to the Gentiles to be mocked., and scourged and crucified.--Matt. xx. 19.
 subtitle: It was fitting that our Lord should suffer at the hands of the Gentiles

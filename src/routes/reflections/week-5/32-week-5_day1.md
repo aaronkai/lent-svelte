@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Sunday
 scripture: As Moses lifted up the serpent in the desert so must the Son of Man be lifted up, that whosoever believeth in Him may not perish; but may have life everlasting.--John iii. 14, 15
 subtitle: The Passion of Christ

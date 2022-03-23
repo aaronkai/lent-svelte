@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Thursday -- Fasting
 scripture: By one man sin entered into this world, and by sin death.--Rom. v. 12.
 day: 1

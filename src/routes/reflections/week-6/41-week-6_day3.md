@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Tuesday in Holy Week
 subtitle: Christ preparing to wash the Apostle's feet
 scripture: He riseth from supper, and layeth aside his garments, and having taken a towel, girded himself.--(John xiii. 4).

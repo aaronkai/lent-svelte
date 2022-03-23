@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Wednesday in Holy Week
 subtitle: Three things are symbolised by the washing of the Feet
 scripture: He putteth "water into a basin, and began to wash the feet of the disciples, and to wipe them with the towel wherewith he was girded--(John xiii. 5).

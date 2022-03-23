@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Saturday -- The Grain of Wheat
 scripture: Unless the grain of wheat falling into the ground die, itself remaineth alone.--John xii. 24.
 day: 3

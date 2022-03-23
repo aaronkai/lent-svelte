@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Wednesday after the Third Sunday of Lent
 scripture: You are bought with a great price.--I Cor. vi. 20
 subtitle: The Price of Our Redemption

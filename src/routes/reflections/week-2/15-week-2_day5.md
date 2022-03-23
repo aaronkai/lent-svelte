@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Thursday after the Second Sunday of Lent
 subtitle: That the Passion of Christ brought about its effect because it was a Sacrifice
 day: 15

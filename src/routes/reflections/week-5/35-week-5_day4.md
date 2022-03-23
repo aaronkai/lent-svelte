@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Wednesday
 subtitle: On Being Burried Spiritually
 day: 35

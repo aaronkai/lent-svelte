@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Wednesday After First Sunday of Lent
 scripture: Attend and see if there be any sorrow like unto my sorrow. Lam. i. 12.
 subtitle: How Great was the Sorrow of Our Lord in His Passion?

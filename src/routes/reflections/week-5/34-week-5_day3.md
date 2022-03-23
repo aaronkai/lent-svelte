@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Tuesday
 scripture: She hath wrought a good work upon Me. She in pouring this ointment upon Me hath done it for my burial.--Matt. xxvi. 10-12.
 day: 34

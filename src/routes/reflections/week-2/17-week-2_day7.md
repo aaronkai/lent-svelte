@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Saturday after the Second Sunday of Lent
 scripture: St. Peter says, You were not redeemed with corruptible things as gold or silver, from your vain conversation of the tradition of your fathers but with the precious blood of Christ, as of a lamb unspotted and undefiled (I Pet. 1. 18)
 subtitle: The Passion of Christ wrought our salvation by redeeming us

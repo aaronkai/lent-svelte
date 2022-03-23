@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Saturday after the Fourth Sunday of Lent
 subtitle: There was not any more fitting way to free the Human Race than through the Passion of Christ
 day: 31

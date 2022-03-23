@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Saturday After First Sunday of Lent
 scripture: God commendeth His charity towards us because when as yet we were sinners, according to the time, Christ died for us.--Rom. v. 8, 9
 subtitle: The Love of God Shown in the Passion of Christ

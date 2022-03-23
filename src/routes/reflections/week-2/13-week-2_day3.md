@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Tuesday after the Second Sunday of Lent
 scripture: They shall deliver Him to the Gentiles to be mocked., and scourged and crucified.--Matt. xx. 19.
 subtitle: The Passion of Christ brought about our salvation because it was a meritorious act

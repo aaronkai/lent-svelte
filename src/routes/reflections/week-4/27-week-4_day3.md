@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Tuesday after the Fourth Sunday of Lent
 subtitle: The Example of Christ Crucified
 day: 27

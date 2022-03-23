@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Maundy Thursday
 subtitle: The Last Supper
 day: 43

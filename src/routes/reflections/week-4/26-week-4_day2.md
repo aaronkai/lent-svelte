@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Monday after the Fourth Sunday of Lent
 scripture: He became obedient unto death, even to the death of the cross, for which cause God hath exalted Him.--Phil. ii. 8.
 subtitle: Christ by His Passion merited to be exalted

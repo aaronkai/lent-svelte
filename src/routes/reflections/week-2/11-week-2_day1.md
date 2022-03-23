@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Sunday of Second Week in Lent
 scripture: God spared not even His own Son, but delivered Him up for us all.--Rom. viii. 32.
 subtitle: God the Father Delivered Christ to His Passion

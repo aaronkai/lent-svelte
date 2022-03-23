@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Good Friday
 subtitle: The Death of Christ
 day: 44

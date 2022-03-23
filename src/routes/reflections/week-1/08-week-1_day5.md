@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Thursday After First Sunday of Lent
 subtitle: It was fitting that Christ should be Crucified with the Thieves
 day: 8

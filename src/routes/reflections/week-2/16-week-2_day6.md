@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Friday after the Second Sunday of Lent
 scripture: Joseph taking the body, wrapped it up in a clean linen cloth and laid it in his own new monument.-- Matt, xxvii. 59.
 subtitle: Feast of the Holy Winding Sheet

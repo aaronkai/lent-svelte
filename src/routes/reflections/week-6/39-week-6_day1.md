@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Palm Sunday
 subtitle: Christ's Passion Serves us as an Example
 day: 39

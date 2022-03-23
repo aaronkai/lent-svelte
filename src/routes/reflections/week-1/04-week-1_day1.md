@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Sunday of First Week in Lent
 subtitle: It was fitting that Christ should be tempted
 day: 4

@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Saturday
 scripture: If I then being your Lord and Master, have washed your feet; you also out to wash one another's feet--John xiii. 14
 subtitle: How we, each of us, should wash on another's feet

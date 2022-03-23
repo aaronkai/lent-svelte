@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Monday after the Third Sunday of Lent
 scripture: Our Lord said, as His Passion drew near, Now shall the princes of this world be cast out. And I, if I be lifted up from the earth, will draw all things to myself (John xii. 31, 32)
 subtitle: The Passion of Christ has delivered us from the devil.

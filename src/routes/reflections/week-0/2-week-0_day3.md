@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Friday -- The Crown of Thorns
 scripture: Go forth, ye daughters of Sion, and see king Solomon in the diadem, wherewith his mother crowned him in the day of his espousals, and in the day of the joy of his heart.--Cant. iii. n.
 day: 2

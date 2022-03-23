@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Monday
 subtitle: The Passion of Christ is a Remedy Against Sin
 day: 33

@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Tuesday after the Third Sunday of Lent
 scripture: You were redeemed with the precious blood of Christ, as of a lamb unspotted and undefiled.--I Pet. 1. 19.
 subtitle: Christ is truly our Redeemer

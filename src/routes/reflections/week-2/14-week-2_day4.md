@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Wednesday after the Second Sunday of Lent
 scripture: He is the propitiation for our sins, and not for ours only but also for those of the whole world.--I John ii. 2.
 subtitle: The Passion of Christ brought about our salvation because it was an act of satisfaction

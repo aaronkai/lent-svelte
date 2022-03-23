@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Friday after the Fourth Sunday of Lent
 subtitle: The Precious Blood
 day: 30

@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Monday in Holy Week
 subtitle: It is necessary that we be wholly clean
 day: 40

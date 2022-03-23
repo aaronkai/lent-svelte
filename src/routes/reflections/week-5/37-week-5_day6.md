@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Friday
 scripture: Thy own soul a sword shall pierce-- Luke ii. 35.
 subtitle: Our Lady's Suffering in the Passion

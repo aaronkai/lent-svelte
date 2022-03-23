@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Saturday after the Third Sunday of Lent
 scripture: We were reconciled to God through the death of His Son.--Rom. v. 10
 subtitle: The Passion of Christ Reconciles us to God

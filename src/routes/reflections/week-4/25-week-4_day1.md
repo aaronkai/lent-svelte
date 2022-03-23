@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Sunday of Fourth Week in Lent
 scripture: We have a confidence in the entering into the holies by the blood of Christ.--Heb. x. 19.
 subtitle: Christ by His Passion opened to us the gates of Heaven

@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Thursday after the Fourth Sunday of Lent
 subtitle: The Death of Lazarus
 scripture: Lazarus our friend sleepeth--(John xi. 11)

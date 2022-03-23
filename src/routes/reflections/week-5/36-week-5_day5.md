@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Passion Thursday
 subtitle: The preaching of the Samaritan woman
 scripture: The woman therefore left her water-pot, and went her way into the city.--John iv. 28.

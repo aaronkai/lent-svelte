@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Friday after the Third Sunday of Lent
 scripture: Surely he hath borne our infirmities and carried our sorrows.--Isaias liii. 4.
 subtitle: It is by the Passion of Christ that we have been freed from the punishment due to sin

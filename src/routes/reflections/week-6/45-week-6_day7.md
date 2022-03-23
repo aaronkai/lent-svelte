@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Holy Saturday
 subtitle: Why our Lord went down to Limbo
 day: 45

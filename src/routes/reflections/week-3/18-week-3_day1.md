@@ -1,5 +1,4 @@
 ---
-layout: ../../../layouts/ReflectionLayout.astro
 title: Sunday of Third Week in Lent
 scripture: He hath loved us and washed us from our sins in His own blood.--Apoc. 1. 5.
 
