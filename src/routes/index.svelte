@@ -1,39 +1,56 @@
 <script context="module">
 	// feed posts to page as props
+
 	export const load = async ({ fetch }) => {
 		const posts = await fetch('./reflections/allMeta.json');
+		const dates = await fetch('./dates.json');
+
 		const allPosts = await posts.json();
+		const { dayOfLent, startOfLent } = await dates.json();
+
+		const postURL = `./reflections/${dayOfLent}.json`;
+		// console.log(postURL);
+		const post = await fetch(postURL);
+		const { path, html, meta } = await post.json();
+		// const postOfTheDay = await post;
+		// console.log(postOfTheDay);
+
 		return {
 			props: {
-				posts: allPosts
+				posts: allPosts,
+				startOfLent,
+				dayOfLent,
+				meta,
+				html,
+				path
 			}
 		};
 	};
 </script>
 
 <script>
-	import { getWeek } from '$lib/utils/functions';
-	import Header from '$lib/components/header.svelte';
-	import Footer from '$lib/components/footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import TableOfContents from '$lib/components/tableOfContents.svelte';
 
 	export let posts;
-
-	const weeks = [1, 2, 3, 4, 5, 6];
+	export let startOfLent;
+	export let dayOfLent;
+	export let postOfTheDay;
+	export let meta;
+	export let html;
+	export let path;
+	console.log(html);
 </script>
 
+<svelte:head>
+	<title>Meditations for Lent</title>
+</svelte:head>
 <Header />
-<h1>Hello world</h1>
-<aside>
-	<ul>
-		<!-- {#each posts as post}
-			<li><a href="./reflections/{post.path}">{post.meta.title}</a></li>
-		{/each} -->
-		{#each weeks as week}
-			<h2 class="font-bold">Week {week}</h2>
-			{#each getWeek(week, posts) as post}
-				<p>{post.meta.title}</p>
-			{/each}
-		{/each}
-	</ul>
-</aside>
+<main class="grid grid-cols-[auto_1fr]">
+	<TableOfContents {posts} />
+	<article>
+		{@html html}
+	</article>
+</main>
 <Footer />
