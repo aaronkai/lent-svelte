@@ -5,7 +5,7 @@
 		<a class="" href="/">Home</a>
 		<a href="/about">About</a>
 	</nav>
-	<h1 class="title text-xl font-bold justify-self-center">
+	<h1 class="title text-xl font-bold justify-self-center hidden sm:block">
 		Meditations for Lent by Thomas Aquinas
 	</h1>
 </header>

@@ -9,20 +9,15 @@
 		const { dayOfLent, startOfLent } = await dates.json();
 
 		const postURL = `./reflections/${dayOfLent}.json`;
-		// console.log(postURL);
 		const post = await fetch(postURL);
-		const { path, html, meta } = await post.json();
-		// const postOfTheDay = await post;
-		// console.log(postOfTheDay);
+		const dailyPost = await post.json();
 
 		return {
 			props: {
 				posts: allPosts,
 				startOfLent,
 				dayOfLent,
-				meta,
-				html,
-				path
+				dailyPost
 			}
 		};
 	};
@@ -37,20 +32,17 @@
 	export let startOfLent;
 	export let dayOfLent;
 	export let postOfTheDay;
-	export let meta;
-	export let html;
-	export let path;
-	console.log(html);
+	export let dailyPost;
 </script>
 
 <svelte:head>
 	<title>Meditations for Lent</title>
 </svelte:head>
 <Header />
-<main class="grid grid-cols-[auto_1fr]">
+<main class="grid md:grid-cols-[auto_1fr]">
 	<TableOfContents {posts} />
 	<article>
-		{@html html}
+		{@html dailyPost.html}
 	</article>
 </main>
 <Footer />
