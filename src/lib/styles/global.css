@@ -9,3 +9,15 @@ a,
 li {
 	@apply font-serif text-purple-900;
 }
+
+a {
+	@apply hover:text-purple-700 hover:scale-105;
+}
+
+p a {
+	@apply underline underline-offset-2;
+}
+
+p {
+	@apply text-lg;
+}

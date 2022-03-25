@@ -1,7 +1,7 @@
-<header>
-	<h1 class="text1">About This Resourse</h1>
+<header class="mb-6">
+	<h1 class="text-5xl font-bold max-w-heading-2">About This Resourse</h1>
 </header>
-<main>
+<main class="grid gap-3 text-lg max-w-content-3">
 	<p>
 		I discovered this text through listening to
 		<a href="https://pintswithaquinas.com">Pints with Aquinas</a>

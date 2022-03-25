@@ -5,7 +5,7 @@
 	export let posts;
 	const weeks = [1, 2, 3, 4, 5, 6];
 
-	// animate details elements
+	// animate details elementsWeek
 	onMount(() => {
 		document.querySelectorAll('details').forEach((el) => {
 			new Accordion(el);
@@ -15,7 +15,9 @@
 
 <!-- TODO: write JS to make current week open -->
 
-<aside class="bg-purple-100 p-6 grid  content-start">
+<aside
+	class="bg-purple-100 p-6 grid content-start border-b-purple-300 sm:border-b-0 sm:border-r-purple-300 border-2"
+>
 	{#each weeks as week}
 		<details>
 			<summary class="font-bold font-serif text-2xl text-purple-900">
@@ -24,8 +26,8 @@
 			<div class="content">
 				<ul class="pl-9">
 					{#each getWeek(week, posts) as post}
-						<li id={post.meta.day}>
-							<a class="text-lg" href="./reflections/{post.path}">{post.meta.title}</a>
+						<li class="list-decimal" id={post.meta.day}>
+							<a class="text-lg" href="/reflections/{post.path}">{post.meta.title}</a>
 						</li>
 					{/each}
 				</ul>
@@ -33,20 +35,3 @@
 		</details>
 	{/each}
 </aside>
-
-<style>
-	details summary ~ * {
-		animation: sweep 0.5s ease-in-out;
-	}
-
-	@keyframes sweep {
-		0% {
-			opacity: 0;
-			transform: translateX(-10px);
-		}
-		100% {
-			opacity: 1;
-			transform: translateX(0);
-		}
-	}
-</style>

@@ -2,13 +2,13 @@
 	// feed posts to page as props
 
 	export const load = async ({ fetch }) => {
-		const posts = await fetch('./reflections/allMeta.json');
-		const dates = await fetch('./dates.json');
+		const posts = await fetch('/reflections/allMeta.json');
+		const dates = await fetch('/dates.json');
 
 		const allPosts = await posts.json();
 		const { dayOfLent, startOfLent } = await dates.json();
 
-		const postURL = `./reflections/${dayOfLent}.json`;
+		const postURL = `/reflections/${dayOfLent}.json`;
 		const post = await fetch(postURL);
 		const dailyPost = await post.json();
 
@@ -24,25 +24,17 @@
 </script>
 
 <script>
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import TableOfContents from '$lib/components/tableOfContents.svelte';
-
-	export let posts;
-	export let startOfLent;
-	export let dayOfLent;
-	export let postOfTheDay;
+	import '$lib/styles/markdown.css';
+	// export let posts;
+	// export let startOfLent;
+	// export let dayOfLent;
+	// export let postOfTheDay;
 	export let dailyPost;
 </script>
 
 <svelte:head>
 	<title>Meditations for Lent</title>
 </svelte:head>
-<Header />
-<main class="grid md:grid-cols-[auto_1fr]">
-	<TableOfContents {posts} />
-	<article>
-		{@html dailyPost.html}
-	</article>
-</main>
-<Footer />
+<article class="markdown">
+	{@html dailyPost.html}
+</article>

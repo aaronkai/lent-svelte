@@ -3,7 +3,7 @@ import { defineMDSveXConfig as defineConfig } from 'mdsvex';
 const config = defineConfig({
 	extensions: ['.svelte.md', '.md', '.svx'],
 	layout: {
-		reflections: 'src/routes/reflections/_reflections.svelte'
+		_: './src/routes/reflections/_reflectionLayout.svelte'
 	},
 
 	smartypants: {
