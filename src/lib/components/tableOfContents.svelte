@@ -3,7 +3,7 @@
 	import { Accordion } from '$lib/utils/Accordion';
 	import { getWeek } from '$lib/utils/functions';
 	export let posts;
-	const weeks = [1, 2, 3, 4, 5, 6];
+	const weeks = [0, 1, 2, 3, 4, 5, 6];
 
 	// animate details elementsWeek
 	onMount(() => {

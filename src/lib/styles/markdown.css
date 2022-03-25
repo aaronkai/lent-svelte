@@ -1,19 +1,15 @@
 h1,
 h2 {
-	@apply text-4xl;
+	@apply text-4xl font-bold;
 }
-
-h3 {
-	color: var(--text1);
-	max-inline-size: var(--size-header-3);
-	font-size: var(--font-size-4);
+.markdown h1 {
+	@apply mb-3 text-3xl font-bold;
 }
-
 .markdown h2 {
-	@apply mb-3;
+	@apply mb-3 text-3xl font-bold;
 }
 .markdown h3 {
-	@apply mb-3;
+	@apply mb-3 text-xl font-bold;
 }
 
 .markdown p {

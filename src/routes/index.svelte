@@ -35,6 +35,6 @@
 <svelte:head>
 	<title>Meditations for Lent</title>
 </svelte:head>
-<article class="markdown">
+<article>
 	{@html dailyPost.html}
 </article>
