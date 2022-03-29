@@ -1,5 +1,6 @@
-<script context="module">
+<script context="module" lang="ts">
 	// feed posts to page as props
+	/** @type {import('./dates').Load} */
 
 	export const load = async ({ fetch }) => {
 		const posts = await fetch('/reflections/allMeta.json');
@@ -8,6 +9,7 @@
 		const allPosts = await posts.json();
 		const { dayOfLent, startOfLent } = await dates.json();
 
+		//TODO: Fix api key!!!
 		const postURL = `/reflections/${dayOfLent}.json`;
 		const post = await fetch(postURL);
 		const dailyPost = await post.json();
