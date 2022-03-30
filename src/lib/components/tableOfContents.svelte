@@ -1,8 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
 	import { Accordion } from '$lib/utils/Accordion';
-	import { getWeek } from '$lib/utils/functions';
-	export let posts;
+	import getWeek from '$lib/utils/getWeek';
+	export let allPostsMeta;
 	const weeks = [0, 1, 2, 3, 4, 5, 6];
 
 	// animate details elementsWeek
@@ -25,7 +25,7 @@
 			</summary>
 			<div class="content">
 				<ul class="pl-9">
-					{#each getWeek(week, posts) as post}
+					{#each getWeek(week, allPostsMeta) as post}
 						<li class="list-decimal" id={post.meta.day}>
 							<a class="text-lg" href="/reflections/{post.path}">{post.meta.title}</a>
 						</li>
