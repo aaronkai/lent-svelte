@@ -4,7 +4,6 @@
 
 	export const load = async ({ fetch, stuff }) => {
 		const dayOfLent = stuff.dayOfLent;
-		//hit endpoint to get post for current day of lent or first day of lent if outside of lent
 		const postURL = `/reflections/${dayOfLent}.json`;
 		const post = await fetch(postURL);
 		const dailyPost: IPost = await post.json();
@@ -18,7 +17,7 @@
 
 <script lang="ts">
 	import '$lib/styles/markdown.css';
-	export let dailyPost: IPost;
+	export let dailyPost: IPost = '';
 </script>
 
 <svelte:head>
