@@ -1,5 +1,5 @@
 export async function get({ params }) {
-	const allPostFiles = import.meta.glob('./week-*/*.md');
+	const allPostFiles = import.meta.glob('./*.md');
 	let found;
 	let path;
 	for (const post in allPostFiles) {

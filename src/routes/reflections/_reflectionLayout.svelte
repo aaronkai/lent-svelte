@@ -6,9 +6,11 @@
 
 <script <script>
 	import '$lib/styles/markdown.css';
+	import Pagination from '$lib/components/Pagination.svelte';
 	export let title = '';
 	export let scripture;
 	export let subtitle;
+	export let day;
 </script>
 
 <svelte:head>
@@ -16,7 +18,7 @@
 </svelte:head>
 
 <!-- TODO: Add pagination -->
-
+<Pagination {day} />
 <article class="grid w-full gap-12 max-w-content-3">
 	<header class="grid gap-3">
 		<h1 class="mt-6 mb-4 text-6xl font-bold capitalize">{title}</h1>
