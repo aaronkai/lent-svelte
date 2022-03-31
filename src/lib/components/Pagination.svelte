@@ -1,8 +1,8 @@
 <script>
 	export let allPaths;
 	export let dayOfLent;
-	console.log(dayOfLent);
-	console.log(allPaths[dayOfLent]);
+	// console.log(dayOfLent);
+	// console.log(allPaths[dayOfLent]);
 
 	let hasPrev = dayOfLent > 0;
 	let hasNext = dayOfLent <= allPaths.length;

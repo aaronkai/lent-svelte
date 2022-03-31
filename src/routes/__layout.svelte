@@ -16,6 +16,9 @@
 				allPostsMeta,
 				dayOfLent,
 				allPaths
+			},
+			stuff: {
+				dayOfLent
 			}
 		};
 	};

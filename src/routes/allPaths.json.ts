@@ -4,7 +4,6 @@ export async function get() {
 	for (const path in modules) {
 		allPaths.push(path.slice(2, -3));
 	}
-	console.log({ allPaths });
 	return {
 		body: allPaths
 	};

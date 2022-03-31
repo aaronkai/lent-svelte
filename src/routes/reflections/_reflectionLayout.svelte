@@ -1,8 +1,13 @@
-<script>
+<script context="module">
+	export const load = async ({ context }) => {
+		console.log('Hello');
+	};
+</script>
+
+<script <script>
 	import '$lib/styles/markdown.css';
 	export let title = '';
 	export let scripture;
-	// export let day;
 	export let subtitle;
 </script>
 
