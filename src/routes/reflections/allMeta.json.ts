@@ -14,7 +14,11 @@ export async function get() {
 		})
 	);
 
+	const sortedPosts = allPosts.sort((a, b) => {
+		return a.meta.day-b.meta.day
+	});
+	
 	return {
-		body: allPosts
+		body: sortedPosts
 	};
 }
