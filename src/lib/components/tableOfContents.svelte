@@ -11,7 +11,7 @@
 	});
 </script>
 
-<!-- TODO: write JS to make current week open -->
+<!-- TODO:  bold current day -->
 
 <aside
 	class="bg-purple-100 p-6 grid content-start border-b-purple-300 sm:border-b-0 sm:border-r-purple-300 border-2"
