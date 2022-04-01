@@ -19,7 +19,7 @@
 <svelte:window bind:innerWidth={y} />
 
 <aside
-	class="bg-purple-100 p-6 grid content-start border-b-purple-300 sm:border-b-0 sm:border-r-purple-300 border-2"
+	class="bg-purple-100 p-3 sm:p-6 grid content-start border-b-purple-300 lg:border-b-0 sm:border-r-purple-300 border-2"
 >
 	<details open={isOpen}>
 		<summary
