@@ -3,10 +3,10 @@
 	import { Accordion } from '$lib/utils/Accordion';
 	export let allPostsMeta;
 	export let dayOfLent;
-	let y = 0;
+	let screenWidth = 0;
 	let isOpen = false;
 
-	$: y > 1024 ? (isOpen = true) : (isOpen = false);
+	$: screenWidth > 1024 ? (isOpen = true) : (isOpen = false);
 
 	// animate details
 	onMount(() => {
@@ -16,11 +16,14 @@
 	});
 
 	function toggleOpen() {
-		isOpen = !isOpen;
+		if (screenWidth < 1024) {
+			isOpen = !isOpen;
+		}
+		// isOpen = !isOpen;
 	}
 </script>
 
-<svelte:window bind:innerWidth={y} />
+<svelte:window bind:innerWidth={screenWidth} />
 
 <aside
 	class="bg-purple-100 p-3 sm:p-6 grid content-start border-b-purple-300 lg:border-b-0 sm:border-r-purple-300 border-2"
