@@ -14,6 +14,10 @@
 			new Accordion(el);
 		});
 	});
+
+	function toggleOpen() {
+		isOpen = !isOpen;
+	}
 </script>
 
 <svelte:window bind:innerWidth={y} />
@@ -21,7 +25,7 @@
 <aside
 	class="bg-purple-100 p-3 sm:p-6 grid content-start border-b-purple-300 lg:border-b-0 sm:border-r-purple-300 border-2"
 >
-	<details open={isOpen}>
+	<details open={isOpen} on:click={toggleOpen}>
 		<summary
 			class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-purple-900"
 		>

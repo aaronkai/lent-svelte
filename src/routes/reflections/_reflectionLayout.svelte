@@ -2,9 +2,9 @@
 	import '$lib/styles/markdown.css';
 	import Pagination from '$lib/components/Pagination.svelte';
 	export let title = '';
-	export let scripture;
-	export let subtitle;
-	export let day;
+	export let scripture = '';
+	export let subtitle = '';
+	export let day = 0;
 </script>
 
 <svelte:head>
