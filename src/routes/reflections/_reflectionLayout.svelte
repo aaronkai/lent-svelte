@@ -9,6 +9,7 @@
 
 <svelte:head>
 	<title>{title}</title>
+	<meta name="description" content={subtitle || title} />
 </svelte:head>
 
 <Pagination {day} />

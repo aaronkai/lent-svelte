@@ -22,6 +22,7 @@
 
 <svelte:head>
 	<title>Meditations for Lent</title>
+	<meta name="description" content="Meditations for Lent by St. Thomas Aquinas" />
 </svelte:head>
 <div class="grid gap-6">
 	<article>
