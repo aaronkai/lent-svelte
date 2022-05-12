@@ -8,7 +8,7 @@
 	<a href="/about">About This Site</a>
 	<a href="https://aaronhubbard.dev">Aaron Hubbard Web Dev</a>
 	<a href="https://kit.svelte.dev">Made with SvelteKit</a>
-	<a href="#">Day {today}</a>
+	<a href="#">Built {today}</a>
 </footer>
 
 <style>
