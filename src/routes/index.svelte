@@ -2,6 +2,9 @@
 	/** @type {import('./dates').Load} */
 	import type { IPost } from '$lib/models/interfaces/ipost.interface';
 
+	// do not prerender this page to allow dynamic loading
+	export const prerender = false;
+
 	export const load = async ({ fetch, stuff }) => {
 		const dayOfLent = stuff.dayOfLent;
 		const postURL = `/reflections/${dayOfLent}.json`;
