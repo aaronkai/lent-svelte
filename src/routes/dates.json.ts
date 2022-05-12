@@ -12,7 +12,7 @@ export async function get(): Promise<{
 
 	// define variables with defaults to override if we're in lent
 	const startOfLent = new Date();
-	const today: string = new Date(Date.now()).toLocaleDateString();
+	const today: string = new Date(Date.now()).toLocaleString();
 	let dayOfLent = 0;
 
 	if (response.status == 200) {
