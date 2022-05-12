@@ -7,12 +7,13 @@
 		const dates = await fetch('/dates.json');
 
 		const allPostsMeta: IAllPosts = await posts.json();
-		const { dayOfLent }: IDates = await dates.json();
+		const { dayOfLent, today }: IDates = await dates.json();
 
 		return {
 			props: {
 				allPostsMeta,
-				dayOfLent
+				dayOfLent,
+				today
 			},
 			stuff: {
 				dayOfLent
@@ -30,6 +31,7 @@
 
 	export let dayOfLent;
 	export let allPostsMeta;
+	export let today;
 </script>
 
 <div class="h-full min-h-screen grid grid-rows-[auto_1fr_auto] bg-purple-50">
@@ -40,5 +42,5 @@
 			<slot />
 		</div>
 	</main>
-	<Footer />
+	<Footer {today} />
 </div>

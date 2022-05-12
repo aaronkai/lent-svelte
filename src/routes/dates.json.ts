@@ -1,7 +1,7 @@
 /** @type {import('./index').RequestHandler} */
 
 export async function get(): Promise<{
-	body: { startOfLent: Date; dayOfLent: number };
+	body: { startOfLent: Date; dayOfLent: number; today: string };
 	status: number;
 }> {
 	// get list of holidays from google calendar API
@@ -12,6 +12,7 @@ export async function get(): Promise<{
 
 	// define variables with defaults to override if we're in lent
 	const startOfLent = new Date();
+	const today: string = new Date(Date.now()).toLocaleDateString();
 	let dayOfLent = 0;
 
 	if (response.status == 200) {
@@ -48,7 +49,8 @@ export async function get(): Promise<{
 		status: response.status,
 		body: {
 			startOfLent,
-			dayOfLent
+			dayOfLent,
+			today
 		}
 	};
 }
